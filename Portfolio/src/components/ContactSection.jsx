@@ -35,7 +35,7 @@ const handleSubmit = (e)=>{
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="space-y-8">
-                <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
+                <h3 className="text-2xl font-semibold mb-6">{" "}Contact Information</h3>
 
                 <div className="space-y-6 justify-center">
                     <div className="flex items-start space-x-4">
@@ -90,12 +90,13 @@ const handleSubmit = (e)=>{
                         </a>
                     </div>
                 </div>
+            </div>
 
                 <div className="bg-card p-8 rounded-lg shadow-xs" onSubmit={handleSubmit}>
                     <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
-                    <form className="space-x-6">
+                    <form className="space-y-6">
                         <div>
-                            <label htmlFor="name" className="block text-sm font-medium mb-2">Your Name</label>
+                            <label htmlFor="name" className="block text-sm font-medium mb-2">{" "}Your Name</label>
                             <input 
                             type="text" 
                             id="name" 
@@ -106,7 +107,7 @@ const handleSubmit = (e)=>{
                             />
                         </div>
                         <div>
-                            <label htmlFor="email" className="block text-sm font-medium mb-2">Your Email</label>
+                            <label htmlFor="email" className="block text-sm font-medium mb-2">{" "}Your Email</label>
                             <input 
                             type="email" 
                             id="email" 
@@ -117,7 +118,7 @@ const handleSubmit = (e)=>{
                             />
                         </div>
                         <div>
-                            <label htmlFor="message" className="block text-sm font-medium mb-2">Your Message</label>
+                            <label htmlFor="message" className="block text-sm font-medium mb-2">{" "}Your Message</label>
                             <textarea
                             type="text" 
                             id="message"
@@ -139,7 +140,6 @@ const handleSubmit = (e)=>{
                     </form>
                 </div>
             </div>
-        </div>
         </div>
     </section>
     );

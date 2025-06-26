@@ -3,27 +3,27 @@ import React from "react"
 
 const projects = [
     {
-        id: 1,
+        id: 0,
         title: "Blog page",
-        descrition: "This is a blog page using React and Tailwind",
+        description: "This is a blog page using React and Tailwind",
         image:"/projects/Blogpage.png",
         tags: ["React","TailwindCSS","JavaScript"],
         demoUrl:"http://my-blog-111.netlify.app",
         githubUrl:"https://github.com/prathambagri/chai-aur-react/tree/main/12MegaBlog"
     },
     {
-        id: 2,
+        id: 1,
         title: "Blog page",
-        descrition: "This is a blog page using React and Tailwind",
+        description: "This is a blog page using React and Tailwind",
         image:"/projects/Blogpage.png",
         tags: ["React","TailwindCSS","JavaScript"],
         demoUrl:"#http://my-blog-111.netlify.app", // remove the '#' from the url when you deploy the project
         githubUrl:"#https://github.com/prathambagri/chai-aur-react/tree/main/12MegaBlog" 
     },
     {
-        id: 3,
+        id: 2,
         title: "Blog page",
-        descrition: "This is a blog page using React and Tailwind",
+        description: "This is a blog page using React and Tailwind",
         image:"/projects/Blogpage.png",
         tags: ["React","TailwindCSS","JavaScript"],
         demoUrl:"#http://my-blog-111.netlify.app",
@@ -44,7 +44,7 @@ export const ProjectSection =()=>{
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {projects.map((project,key)=>(
                     <div key={project.id} className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
-                        <div className="h-48 overflow-hidden">
+                        <div className="h-45 overflow-hidden">
                             <img src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
                         </div>
                         <div className="p-6">
@@ -57,7 +57,7 @@ export const ProjectSection =()=>{
                             </div>
 
                         <h3 className="text-xl font-semibold mb-1">{project.title}</h3>
-                        <p className="text-muted-foreground text-sm mb-4">{project.descrition}</p>
+                        <p className="text-muted-foreground text-sm mb-4">{project.description}</p>
                         <div className="flex justify-between items-center">
                             <div className="flex space-x-3">
                                 <a href={project.demoUrl} 
