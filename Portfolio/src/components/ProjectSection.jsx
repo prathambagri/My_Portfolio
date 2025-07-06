@@ -13,12 +13,12 @@ const projects = [
     },
     {
         id: 1,
-        title: "Blog page",
-        description: "This is a blog page using React and Tailwind",
-        image:"/projects/Blogpage.png",
-        tags: ["React","TailwindCSS","JavaScript"],
-        demoUrl:"#http://my-blog-111.netlify.app", // remove the '#' from the url when you deploy the project
-        githubUrl:"#https://github.com/prathambagri/chai-aur-react/tree/main/12MegaBlog" 
+        title: "Weather App",
+        description: "This is a weather app provide comprehensive data such as humidity level, wind speed, and temperature.",
+        image:"/projects/weatherApp.png",
+        tags: ["React","CSS","JavaScript"],
+        demoUrl:"https://weather-app-pb.netlify.app/", 
+        githubUrl:"https://github.com/prathambagri/WeatherApp-ReactJS" 
     },
     {
         id: 2,
@@ -26,7 +26,7 @@ const projects = [
         description: "This is a blog page using React and Tailwind",
         image:"/projects/Blogpage.png",
         tags: ["React","TailwindCSS","JavaScript"],
-        demoUrl:"#http://my-blog-111.netlify.app",
+        demoUrl:"#http://my-blog-111.netlify.app", // remove the '#' from the url when you deploy the project
         githubUrl:"#https://github.com/prathambagri/chai-aur-react/tree/main/12MegaBlog"
     },
 
