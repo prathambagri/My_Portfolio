@@ -3,7 +3,7 @@ import {cn} from "@/lib/utils"
 
 const skills = [
     // Frontend
-  { name: "HTML/CSS", level: 60, category: "frontend" },
+  { name: "HTML/CSS", level: 60, category: "frontend" ,logo: '/public/tech_logo/html.png' },
   { name: "JavaScript", level: 50, category: "frontend" },
   { name: "React", level: 50, category: "frontend" },
 //   { name: "TypeScript", level: 85, category: "frontend" },
@@ -11,7 +11,7 @@ const skills = [
 //   { name: "Next.js", level: 80, category: "frontend" },
 
     // languages
-  { name: "JAVA", level: 70, category: "Programming Languages" },
+  { name: "JAVA", level: 60, category: "Programming Languages" },
   { name: "C", level: 60, category: "Programming Languages" },
   { name: "PYTHON", level: 50, category: "Programming Languages" },
 
@@ -58,7 +58,11 @@ const filteredSkills = skills.filter((skills)=>activeCategory==="all"||skills.ca
                     <div key={key} className="bg-card p-6 rounded-lg shadow-xs card-hover">
                         <div className="text-left mb-4">
                             <h3 className="font-semibold text-lg">{skills.name}</h3>
+
+                            {/* <img src={skills.logo} className="w-6 h-6 sm:w-8 sm:h-8"/> */}
+
                         </div>
+                        
                         <div className="w-full bg-secondary/50 h-2 rounded-full overflow-hidden">
                         <div className="bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease-out]"
                         style={{width:skills.level + "%"}}

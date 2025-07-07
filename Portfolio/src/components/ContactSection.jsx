@@ -1,12 +1,32 @@
 import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone, Send, Twitter } from "lucide-react";
 import {cn} from "@/lib/utils"
 import {useToast} from "@/hooks/use-Toast"
-import { useState } from "react";
+import { useRef, useState } from "react";
+import emailjs from '@emailjs/browser';
 
 export const ContactSaction = () => {
 const {toast}= useToast();
 const [isSubmitting, setIsSubmitting] = useState(false);
+const form = useRef();
 
+const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+    .sendForm('service_vm0q3xx', 'template_3yl8qld', form.current, {
+        publicKey: 'kPK_qmBVJbcQqj-pe',
+        })
+    .then(
+        () => {
+        console.log('SUCCESS!');
+        e.target.reset();
+        alert('Email sent')
+        },
+        (error) => {
+        console.log('FAILED...', error.text);
+        alert('Email not sent')
+        },
+    );
+};
 
 const handleSubmit = (e)=>{
     e.preventDefault()
@@ -94,7 +114,7 @@ const handleSubmit = (e)=>{
 
                 <div className="bg-card p-8 rounded-lg shadow-xs" onSubmit={handleSubmit}>
                     <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
-                    <form className="space-y-6">
+                    <form className="space-y-6" ref={form} onSubmit={sendEmail}>
                         <div>
                             <label htmlFor="name" className="block text-sm font-medium mb-2">{" "}Your Name</label>
                             <input 
@@ -103,7 +123,7 @@ const handleSubmit = (e)=>{
                             name="name"
                             required 
                             className="w-full px-4 py-3 rounded-mb border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary" 
-                            placeholder="Name..."
+                            placeholder="Your Name..."
                             />
                         </div>
                         <div>
@@ -114,7 +134,7 @@ const handleSubmit = (e)=>{
                             name="email"
                             required 
                             className="w-full px-4 py-3 rounded-mb border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary" 
-                            placeholder="Email..."
+                            placeholder="Your Email..."
                             />
                         </div>
                         <div>
