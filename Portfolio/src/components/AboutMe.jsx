@@ -41,8 +41,8 @@ export const AboutMe =()=>{
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg">Web Development</h4>
                                 <p className="text-muted-foreground">
-                                    creating responsive website and web application using 
-                                    HTML, CSS, JavaScript, React, Node.js, MongoDB, and Express.js
+                                    creating interactive, user-friendly web apps with React, JavaScript, 
+                                    and a focus on clean, maintainable code.
                                 </p>
                             </div>
                         </div>
@@ -53,10 +53,10 @@ export const AboutMe =()=>{
                             <User className="h-5 w-5 text-primary"/>
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-lg">Web Development</h4>
+                                <h4 className="font-semibold text-lg">User Experience</h4>
                                 <p className="text-muted-foreground">
-                                    creating responsive website and web application using 
-                                    HTML, CSS, JavaScript, React, Node.js, MongoDB, and Express.js
+                                    I focus on creating seamless user experiences, making sure every 
+                                    interaction is smooth, responsive, and enjoyable.
                                 </p>
                             </div>
                         </div>
@@ -67,10 +67,10 @@ export const AboutMe =()=>{
                             <Briefcase className="h-5 w-5 text-primary"/>
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-lg">Web Development</h4>
+                                <h4 className="font-semibold text-lg">Work Experience</h4>
                                 <p className="text-muted-foreground">
-                                    creating responsive website and web application using 
-                                    HTML, CSS, JavaScript, React, Node.js, MongoDB, and Express.js
+                                    While I may not have professional experience yet, I am passionate about 
+                                    learning, quick to adapt, and excited to start my journey in the tech industry.
                                 </p>
                             </div>
                         </div>
