@@ -83,7 +83,7 @@ const filteredSkills = skills.filter((skills)=>activeCategory==="all"||skills.ca
                         alt={`${skills.name} logo`}
                         className="w-6 h-6 sm:w-8 sm:h-8"
                     />
-                    <span className="text-xs sm:text-sm text-gray-300">
+                    <span className="text-muted-foreground text-xs sm:text-sm ">
                         {skills.name}
                     </span>
                 </div>
