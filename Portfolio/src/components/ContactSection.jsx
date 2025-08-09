@@ -1,6 +1,6 @@
 import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone, Send, Twitter } from "lucide-react";
 import {cn} from "@/lib/utils"
-import {useToast} from "@/hooks/use-Toast"
+import {useToast} from "@/hooks/useToast"
 import { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
 
