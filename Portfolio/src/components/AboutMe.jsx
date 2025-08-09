@@ -12,12 +12,13 @@ export const AboutMe =()=>{
                 <div className="space-y-6">
                     <h3>Passionate Web Developer</h3>
                     <p className="text-muted-foreground">
-                        I'm a passionate web developer with a strong background in front-end development. I have a keen ey
-                        for detail and a love for creating user-friendly and visually appealing interfaces.
+                        I'm a passionate and creative developer with a keen interest in building impactful digital experiences. 
+                        My journey in tech started out of curiosity and quickly turned into a deep love for coding and problem-solving.
                     </p>
                     <p className="text-muted-foreground">
-                        I'm a passionate web developer with a strong background in front-end development. I have a ke
-                        ey for detail and a love for creating user-friendly and visually appealing interfaces.
+                        I enjoy working with modern web technologies, exploring new frameworks, and continuously learning to stay ahead 
+                        in this fast-paced industry and I'm always eager to tackle new challenges, connect with like-minded 
+                        individuals, and contribute to exciting projects.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                         <a href="#contact" className="cosmic-button">
