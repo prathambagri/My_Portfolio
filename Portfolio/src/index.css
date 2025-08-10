@@ -161,3 +161,9 @@
   padding: 0;
   text-align: center;
 }
+
+@media (max-width: 1400px) {
+  .theme-toggle {
+    margin-left: 1.5rem;
+  }
+}

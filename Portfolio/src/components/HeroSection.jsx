@@ -14,8 +14,8 @@ export const HeroSection =()=>{
                 </h1>
 
                 <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                  I'm a curious and dedicated developer who enjoys turning ideas into interactive web experiences, always striving 
-                  to learn, grow, and build solutions that make a difference.
+                  I'm a curious and driven developer, passionate about turning ideas into engaging web experiences.
+                  I constantly seek opportunities to learn, grow, and create impactful solutions.
                 </p>
                 <div className="opacity-0 animate-fade-in-delay-4">
                     <a href="#projects" className="cosmic-button">
