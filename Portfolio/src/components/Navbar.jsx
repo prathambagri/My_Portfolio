@@ -52,7 +52,7 @@ export const Navbar = () => {
               {item.name}
             </a>
           ))}
-          <ThemeToggle className="ml-4" />
+          <ThemeToggle className="ml-4 hidden relative" />
         </div>
 
         {/* mobile nav */}
@@ -85,7 +85,7 @@ export const Navbar = () => {
                 {item.name}
               </a>
             ))}
-            <ThemeToggle className="mt-8" />
+            <ThemeToggle className="mt-8 md:hidden fixed top-5 right-5" />
           </div>
         </div>
       </div>
