@@ -22,12 +22,12 @@ const projects = [
     },
     {
         id: 2,
-        title: "Blog page",
-        description: "This is a blog page using React and Tailwind",
-        image:"/projects/Blogpage.png",
-        tags: ["React","TailwindCSS","JavaScript"],
-        demoUrl:"#http://my-blog-111.netlify.app", // remove the '#' from the url when you deploy the project
-        githubUrl:"#https://github.com/prathambagri/chai-aur-react/tree/main/12MegaBlog"
+        title: "CODERILLX",
+        description: "A real-time collaborative code editor that allows multiple users to code together simultaneously.",
+        image:"/projects/CodeRillx.png",
+        tags: ["React","Node.js","Socket.io","Express","JavaScript","Html","CSS"],
+        demoUrl:"https://realtime-collaborative-codeeditor-1p3z.onrender.com",
+        githubUrl:"https://github.com/prathambagri/RealTime-CodeEditor"
     },
 
 ]

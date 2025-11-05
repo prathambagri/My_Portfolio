@@ -16,7 +16,7 @@ const skills = [
   { name: "PYTHON", level: 50, category: "Programming Languages" ,logo: '/tech_logo/python.png'},
 
   // Backend
-//   { name: "Node.js", level: 80, category: "backend" ,logo: '/tech_logo/nodejs.png'},
+  { name: "Node.js", level: 80, category: "backend" ,logo: '/tech_logo/nodejs.png'},
 //   { name: "Express", level: 75, category: "backend" ,logo: '/tech_logo/express.png'},
 //   { name: "MongoDB", level: 70, category: "backend" ,logo: '/tech_logo/mongodb.png'},
 //   { name: "PostgreSQL", level: 65, category: "backend" ,logo: '/tech_logo/postgre.png'},
@@ -28,6 +28,7 @@ const skills = [
 //   { name: "Figma", level: 85, category: "tools" ,logo: '/tech_logo/html.png'},
   { name: "VS Code", level: 95, category: "tools" ,logo: '/tech_logo/vscode.png'},
   { name: "Netlify", level: 95, category: "tools" ,logo: '/tech_logo/netlify.png'},
+  { name: "Render", level: 90, category: "tools" ,logo: '/tech_logo/render.png'},
 ]
 
 const categories = ["all","frontend","Programming Languages","tools"]
