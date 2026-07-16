@@ -29,6 +29,7 @@ const skills = [
   { name: "VS Code", level: 95, category: "tools" ,logo: '/tech_logo/vscode.png'},
   { name: "Netlify", level: 95, category: "tools" ,logo: '/tech_logo/netlify.png'},
   { name: "Render", level: 90, category: "tools" ,logo: '/tech_logo/render.png'},
+  { name: "Vercel", level: 90, category: "tools" ,logo: '/tech_logo/vercel.png'},
 ]
 
 const categories = ["all","frontend","Programming Languages","tools"]
