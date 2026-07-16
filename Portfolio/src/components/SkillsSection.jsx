@@ -32,7 +32,7 @@ const skills = [
   { name: "Vercel", level: 90, category: "tools" ,logo: '/tech_logo/vercel.png'},
 ]
 
-const categories = ["all","frontend","Programming Languages","tools"]
+const categories = ["all","frontend","backend","Programming Languages","tools"]
 export const SkillsSection =()=>{
 const [activeCategory,setActiveCategory]=useState("all");
 
