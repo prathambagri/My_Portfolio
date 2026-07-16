@@ -17,8 +17,8 @@ const skills = [
 
   // Backend
   { name: "Node.js", level: 80, category: "backend" ,logo: '/tech_logo/nodejs.png'},
-//   { name: "Express", level: 75, category: "backend" ,logo: '/tech_logo/express.png'},
-//   { name: "MongoDB", level: 70, category: "backend" ,logo: '/tech_logo/mongodb.png'},
+  { name: "Express", level: 75, category: "backend" ,logo: '/tech_logo/express.png'},
+  { name: "MongoDB", level: 70, category: "backend" ,logo: '/tech_logo/mongodb.png'},
 //   { name: "PostgreSQL", level: 65, category: "backend" ,logo: '/tech_logo/postgre.png'},
 //   { name: "GraphQL", level: 60, category: "backend" ,logo: '/tech_logo/.png'},
 

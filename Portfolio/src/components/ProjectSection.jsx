@@ -2,35 +2,65 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react"
 import React from "react"
 
 const projects = [
-    {
-        id: 0,
-        title: "Blog page",
-        description: "This is a blog page using React and Tailwind",
-        image:"/projects/Blogpage.png",
-        tags: ["React","TailwindCSS","JavaScript"],
-        demoUrl:"http://my-blog-111.netlify.app",
-        githubUrl:"https://github.com/prathambagri/chai-aur-react/tree/main/12MegaBlog"
-    },
-    {
-        id: 1,
-        title: "Weather App",
-        description: "This is a weather app provide comprehensive data such as humidity level, wind speed, and temperature.",
-        image:"/projects/weatherApp.png",
-        tags: ["React","CSS","JavaScript"],
-        demoUrl:"https://weather-app-pb.netlify.app/", 
-        githubUrl:"https://github.com/prathambagri/WeatherApp-ReactJS" 
-    },
-    {
-        id: 2,
-        title: "CODERILLX",
-        description: "A real-time collaborative code editor that allows multiple users to code together simultaneously.",
-        image:"/projects/CodeRillx.png",
-        tags: ["React","Node.js","Socket.io","Express","JavaScript","Html","CSS"],
-        demoUrl:"https://realtime-collaborative-codeeditor-1p3z.onrender.com",
-        githubUrl:"https://github.com/prathambagri/RealTime-CodeEditor"
-    },
-
-]
+  {
+    id: 0,
+    title: "Blog page",
+    description: "This is a blog page using React and Tailwind",
+    image: "/projects/Blogpage.png",
+    tags: ["React", "TailwindCSS", "JavaScript"],
+    demoUrl: "http://my-blog-111.netlify.app",
+    githubUrl:
+      "https://github.com/prathambagri/chai-aur-react/tree/main/12MegaBlog",
+  },
+  {
+    id: 1,
+    title: "Weather App",
+    description:
+      "This is a weather app provide comprehensive data such as humidity level, wind speed, and temperature.",
+    image: "/projects/weatherApp.png",
+    tags: ["React", "CSS", "JavaScript"],
+    demoUrl: "https://weather-app-pb.netlify.app/",
+    githubUrl: "https://github.com/prathambagri/WeatherApp-ReactJS",
+  },
+  {
+    id: 2,
+    title: "CODERILLX",
+    description:
+      "A real-time collaborative code editor that allows multiple users to code together simultaneously.",
+    image: "/projects/CodeRillx.png",
+    tags: [
+      "React",
+      "Node.js",
+      "Socket.io",
+      "Express",
+      "JavaScript",
+      "Html",
+      "CSS",
+    ],
+    demoUrl: "https://realtime-collaborative-codeeditor-1p3z.onrender.com",
+    githubUrl: "https://github.com/prathambagri/RealTime-CodeEditor",
+  },
+  {
+    id: 3,
+    title: "ExpertConnect",
+    description:
+      "Built a full-stack expert booking platform with concurrent-safe slot reservations using atomic MongoDB updates.",
+    image: "/projects/ExpertConnect.png",
+    tags: [
+      "React",
+      "Node.js",
+      "Socket.io",
+      "Express",
+      "JavaScript",
+      "Html",
+      "CSS",
+      "MongoDB",
+    ],
+    demoUrl: "https://realtime-expert-session-booking-sys.vercel.app/",
+    githubUrl:
+      "https://github.com/prathambagri/realtime-expert-session-booking-system",
+  },
+];
 export const ProjectSection =()=>{
     return <section id="projects"className="py-24 px-4 relative">
         <div className="container mx-auto max-w-5xl">
